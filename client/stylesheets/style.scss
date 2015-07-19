@@ -1,0 +1,50 @@
+#meteor-blog{
+  position: relative;
+  z-index: 1000;
+}
+
+.hero-wrapper {
+	display: block;
+	height: 100%;
+  canvas{
+    display: block;
+    vertical-align: bottom;
+    z-index: 1;
+  }
+
+  #particles-js{
+    height: 100%;
+    // background: #a3adcc;
+    background: #2C2649;
+  }
+}
+.blog-list{
+  // position: absolute;
+}
+
+body{
+  background-color: black;
+}
+.i{
+  color: yellow;
+}
+
+
+h1,h2,h3,h4,h5,h6,p{
+  color: white;
+}
+.header{
+  position: absolute;
+  // z-index: 1000;
+}
+.navbar .navbar-default{
+    opacity: 0%;
+    background:transparent;
+    position: absolute;
+}
+/*.container{
+  position: absolute;
+}*/
+#blogCircle{
+    content: "Blog";
+}
